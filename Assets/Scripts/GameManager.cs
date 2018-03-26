@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 	{
 		theBall = GameObject.FindGameObjectWithTag ("Ball");
 
+		Player1Score = 0;
+		Player2Score = 0;
 		P1Text.text = Player1Score.ToString ();
 		P2Text.text = Player2Score.ToString ();
 		messageText1.text = "";
